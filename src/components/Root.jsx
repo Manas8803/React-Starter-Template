@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 
-export default function Home() {
+export default function Root() {
 	return (
 		<>
-			<div style={{ color: "green" }}>Home Page</div>
+			<div style={{ color: "blue" }}>Root Page</div>
 			<br />
 			<br />
-			<Link to={"/"}>Root</Link>
+			<Link to={"/home"}>Home</Link>
 			<br />
 			<br />
 			<Link to={"/about"}>About</Link>
